@@ -1,0 +1,139 @@
+/* General Styles ( You don't need this for your button ) */
+body
+{
+     background:#f9f9f9;
+}
+#container
+{
+	width: 960px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+	 -webkit-border-radius: 0px;
+	 -moz-border-radius: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.text
+{
+     font-size:20px;
+	 color:#666;
+	 border-bottom:1px solid black;
+}
+.return
+{
+     color: #809dba;
+}
+/*End General Styles*/
+
+/* Button Styles */
+
+.inicio
+{
+     background: url(../imagenes/barra.jpg);
+	 background-position:0px 0px;
+     height:50px;
+	 width:57px;
+	 display:block;
+}
+.quienessomos 
+{
+     background: url(../imagenes/barra.jpg);
+	 background-position:-57px 0px;
+     height:50px;
+	 width:133px;
+	 display:block;
+}
+.nuestrojardin
+{
+     background: url(../imagenes/barra.jpg);
+	 background-position:-190px 0px;
+     height:50px;
+	 width:135px;
+	 display:block;
+}
+
+.nuestropersonal
+{
+     background: url(../imagenes/barra.jpg);
+	 background-position:-324px 0px;
+     height:50px;
+	 width:148px;
+	 display:block;
+}
+
+.nivelesdeeducacion
+{
+     background: url(../imagenes/barra.jpg);
+	 background-position:-472px 0px;
+     height:50px;
+	 width:175px;
+	 display:block;
+}
+
+.noticias
+{
+     background: url(../imagenes/barra.jpg);
+	 background-position:-647px 0px;
+     height:50px;
+	 width:83px;
+	 display:block;
+}
+.galeriadefotos
+{
+     background: url(../imagenes/barra.jpg);
+	 background-position:-730px 0px;
+     height:50px;
+	 width:138px;
+	 display:block;
+}
+.ubicacion
+{
+     background: url(../imagenes/barra.jpg);
+	 background-position:-868px 0px;
+     height:50px;
+	 width:92px;
+	 display:block;
+}
+
+
+
+
+
+
+
+.inicio:hover
+{
+     background-position:0px -50px;
+}
+.quienessomos:hover
+{
+     background-position:-57px -50px;
+}
+
+.nuestrojardin:hover
+{
+     background-position:-190px -50px;
+}
+.nuestropersonal:hover
+{
+     background-position:-324px -50px;
+}
+
+.nivelesdeeducacion:hover
+{
+     background-position:-472px -50px;
+}
+.noticias:hover
+{
+     background-position:-647px -50px;
+}
+.galeriadefotos:hover
+{
+     background-position:-730px -50px;
+}
+.ubicacion:hover
+{
+     background-position:-868px -50px;
+}

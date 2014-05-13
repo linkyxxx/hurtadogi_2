@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Changa+One:400,400italic);
+
+a
+{
+	padding: 1em;
+}
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: 'Changa One', sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background-color: #ff3700;
+	background-image: url(../images/fondo.jpg);
+	background-repeat: no-repeat;
+}
+footer
+{
+	background: #ff3700;
+	color:rgba(255,255,255,0.7);
+	padding: 1.1em;
+	text-align: center;
+}
+footer p:first-child
+{	
+	margin-bottom: 0;
+}
+footer p:last-child
+{
+	margin-top: 0;
+}
+footer p:last-child:after
+{
+	content: " -";
+}
+footer p:last-child:before
+{
+	content: "- ";
+}
+
+
+section article
+{
+	float: center;
+}
+section article .servicio
+{
+	border-right: 1px solid white;
+	padding-right: 0.3em;
+	margin-right: -0.5em;
+}
+section article .servicio img
+{
+	/*-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);*/
+	/*-webkit-transition:.5s;*/
+	transition:.5s;
+	width:100%;
+	max-width:930px;
+	border-radius: 7px;
+	text-shadow: rgba(0,0,0,1) 3px 2px 5px;
+}
+section article
+{
+	float: center;
+}
+
+nav
+{
+	background: #696969;
+	position: relative;
+	height: 45px;
+	padding: 0.2em 0;
+}
+nav ul
+{
+	color:#efefef;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 0; 
+}
+nav ul li
+{	
+	
+	display: inline-block;
+	margin: 0 0.5em 0 0;
+
+	
+
+
+}
+nav ul li a
+{
+	color: white; 
+	display: block;
+	padding: 0.7em 1.2em;
+	text-decoration: none;
+	-webkit-transition:.3s;
+	border-radius: 7px;
+	text-shadow: rgba(0,0,0,1) 3px 2px 5px;
+
+}
+nav ul li a:hover
+{
+	background: #ff3700;
+}
+
+
+
